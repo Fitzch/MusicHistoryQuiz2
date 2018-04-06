@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Music History Quiz</string>
+
+    <!-- Quiz question 1 -->
+    <string name="bach_period_question">Bach\'s music is considered part of which musical period?</string>
+
+    <!-- Possible answer to Bach Musical Period question -->
+    <string name="baroque">Baroque</string>
+
+    <!-- Possible answer to Bach Musical Period question -->
+    <string name="classical">Classical</string>
+
+    <!-- Possible answer to Bach Musical Period question -->
+    <string name="romantic">Romantic</string>
+
+    <!-- Possible answer to Bach Musical Period question -->
+    <string name="renaissance">Renaissance</string>
+
+    <!-- Quiz question 2 -->
+    <string name="mozart_country_question">Mozart called which of these countries home?</string>
+
+    <!-- Possible answer to Mozart Country question -->
+    <string name="austria">Austria</string>
+
+    <!-- Possible answer to Mozart Country question -->
+    <string name="germany">Germany</string>
+
+    <!-- Possible answer to Mozart Country question -->
+    <string name="england">England</string>
+
+    <!-- Possible answer to Mozart Country question -->
+    <string name="france">France</string>
+
+    <!-- Quiz question 3 -->
+    <string name="ode_to_joy_question">Beethoven\'s 9th Symphony is frequently referred to as the "Ode to&#8230;"</string>
+
+    <!-- Edit text hint for Ode to Joy question -->
+    <string name="typing_hint">Type answer here</string>
+
+    <!-- Quiz question 4 -->
+    <string name="bach_denomination_question">Bach subscribed to the doctrine of which of the following Christian denominations?</string>
+
+    <!-- Possible answer to Bach denomination question -->
+    <string name="lutheran">Lutheran</string>
+
+    <!-- Possible answer to Bach denomination question -->
+    <string name="catholic">Catholic</string>
+
+    <!-- Possible answer to Bach denomination question -->
+    <string name="methodist">Methodist</string>
+
+    <!-- Possible answer to Bach denomination question -->
+    <string name="anglican">Anglican</string>
+
+    <!-- Quiz question 5 -->
+    <string name="handel_contemporaries_question">Which of the following are considered contemporaries of George Frideric Handel (most famous
+    for composing "Messiah"). Please select all correct answers.</string>
+
+    <!-- Possible answer to Handel contemporaries question -->
+    <string name="pachelbel">Johann Pachelbel</string>
+
+    <!-- Possible answer to Handel contemporaries question -->
+    <string name="buxtehude">Dietrich Buxtehude</string>
+
+    <!-- Possible answer to Handel contemporaries question -->
+    <string name="hayden">Franz Joseph Haydn</string>
+
+    <!-- Possible answer to Handel contemporaries question -->
+    <string name="bach">J.S. Bach</string>
+
+    <!-- Label for submit answers button -->
+    <string name="submit_answers">Submit Answers</string>
+
+    <!-- Toast message for scoring 3 or higher -->
+    <string name="congratulations">Congratulations! You got&#160;</string>
+
+    <!-- Toast message for scoring 1 or 2 points -->
+    <string name="not_bad">Not too bad! You got&#160;</string>
+
+    <!-- Toast message for scoring 0 points -->
+    <string name="oh_no">Oh no! you got&#160;</string>
+
+    <!-- Toast message for total number of questions -->
+    <string name="out_of_five">&#160;out of 5 answers correct!</string>
+
+</resources>

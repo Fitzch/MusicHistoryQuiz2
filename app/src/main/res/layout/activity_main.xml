@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.musichistoryquiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_marginBottom="6dp"
+            android:text="@string/bach_period_question" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/classical" />
+
+            <RadioButton
+                android:id="@+id/bach_baroque"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/baroque" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/romantic" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/renaissance" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_marginBottom="6dp"
+            android:text="@string/mozart_country_question" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/france" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/germany" />
+
+            <RadioButton
+                android:id="@+id/mozart_austria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/austria" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/england" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_marginBottom="6dp"
+            android:text="@string/ode_to_joy_question" />
+
+        <EditText
+            android:id="@+id/joy_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:hint="@string/typing_hint"
+            android:inputType="textCapWords" />
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_marginBottom="6dp"
+            android:text="@string/bach_denomination_question" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/anglican" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/methodist" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/catholic" />
+
+            <RadioButton
+                android:id="@+id/bach_lutheran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lutheran" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionTextStyle"
+            android:layout_marginBottom="6dp"
+            android:text="@string/handel_contemporaries_question" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hayden" />
+
+        <CheckBox
+            android:id="@+id/handel_pachelbel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pachelbel" />
+
+        <CheckBox
+            android:id="@+id/handel_bach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bach" />
+
+        <CheckBox
+            android:id="@+id/handel_buxtehude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/buxtehude" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit_answers" />
+
+    </LinearLayout>
+
+</ScrollView>
